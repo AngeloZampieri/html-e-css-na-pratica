@@ -17,21 +17,24 @@ Durante o desenvolvimento, realizei algumas modificações no projeto original, 
 
 O projeto está organizado da seguinte maneira:
 
-📁 Html_Css_Alura_Plus
-├── 📄 index.html
-├── 📁 Styles
-│   ├── 📄 reset.css
-│   ├── 📄 style.css
-└── 📁 image
-│   ├── 🖼️ background1.jpg
-│   ├── 🖼️ celular.png
-│   ├── 🖼️ Combo.png
-│   ├── 🖼️ computador.png
-│   ├── 🖼️ Logo.png
-│   ├── 🖼️ Notebook.png
-│   ├── 🖼️ Pixel True Mockup 1.png
-│   ├── 🖼️ Telas.png
-│   ├── 🖼️ tv.png
+| Diretório/Arquivo       | Descrição |
+|-------------------------|-----------|
+| 📁 Html_Css_Alura_Plus | Diretório raiz do projeto |
+| ├── 📄 index.html      | Arquivo principal HTML |
+| 📁 Styles             | Diretório de estilos |
+| ├── 📄 reset.css      | Reset de estilos CSS |
+| ├── 📄 style.css      | Estilos principais do projeto |
+| 📁 image              | Diretório de imagens |
+| ├── 🖼️ background1.jpg | Imagem de fundo |
+| ├── 🖼️ celular.png     | Mockup de celular |
+| ├── 🖼️ Combo.png       | Imagem de combo de dispositivos |
+| ├── 🖼️ computador.png  | Mockup de computador |
+| ├── 🖼️ Logo.png        | Logo do projeto |
+| ├── 🖼️ Notebook.png    | Mockup de notebook |
+| ├── 🖼️ Pixel True Mockup 1.png | Mockup detalhado |
+| ├── 🖼️ Telas.png      | Imagem das telas do projeto |
+| ├── 🖼️ tv.png         | Mockup de TV |
+
 
 ## 📷 Demonstração
 
