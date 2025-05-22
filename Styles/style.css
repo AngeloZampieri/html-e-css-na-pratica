@@ -120,39 +120,39 @@ body {
     font-weight: 700;
 }
 
-.lista_dispositivos{
+.lista_dispositivos {
     display: flex;
     text-align: center;
     font-weight: 600;
     font-size: 30px;
 }
 
-.icone_alura{
+.icone_alura {
     margin-bottom: 5vh;
     margin-top: 10vh;
     width: 10vh;
 }
 
-.rodape{
+.rodape {
     margin-bottom: 3vh;
 }
 
 .lista_rodape a {
     text-decoration: none;
     color: var(--branco_titulos);
-        font-size: 16px;
+    font-size: 16px;
     font-family: var(--fonte_principal);
 }
 
-.lista_rodape a:hover{
+.lista_rodape a:hover {
     color: var(--botao_cor);
 }
 
-.lista_rodape a:active{
-    color:slateblue;
+.lista_rodape a:active {
+    color: slateblue;
 }
 
-.lista_rodape{
+.lista_rodape {
     display: flex;
     gap: 3vh;
     justify-content: center;
@@ -164,4 +164,68 @@ footer {
     font-size: 14px;
     text-align: center;
     margin: 5%;
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 0;
+    }
+
+    .main {
+        background-size: 70%;
+        background-position: top;
+        align-items: center;
+        padding: 2vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titulo {
+        width: 70vh;
+        margin-top: 60%;
+    }
+
+    .valores_combo {
+        margin-left: 10%;
+        margin: 10%;
+    }
+
+    .secundario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .descricao_titulo {
+        text-align: center;
+    }
+
+    .descricao_subtitulo {
+        text-align: center;
+        width: 45vh;
+    }
+
+    .terceiro_botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .telas_imagens {
+        margin-left: 0;
+    }
+
+  .lista_dispositivos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.lista_rodape a {
+    font-size: 0.8125rem;
+}
+
 }
