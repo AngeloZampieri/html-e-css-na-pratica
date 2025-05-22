@@ -17,7 +17,7 @@ body {
 
 
 .main {
-    background-image: url("Images/Background1.jpg ");
+    background-image: url("../Images/background1.jpg");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: 95%;
