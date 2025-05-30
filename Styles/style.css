@@ -167,65 +167,98 @@ footer {
 }
 
 @media (max-width: 576px) {
-    body {
-        padding: 0;
+    body{
+        width:fit-content;
     }
 
     .main {
-        background-size: 70%;
-        background-position: top;
-        align-items: center;
-        padding: 2vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        background-size: 75%;
+        background-position: 5vh 3vh;
     }
 
     .titulo {
-        width: 70vh;
-        margin-top: 60%;
+        width: 50vh;
+        margin-top: 85%;
     }
 
     .valores_combo {
+        margin-left: 0;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        height: 15vh;
+    }
+
+    .botao {
+        width: 150%;
         margin-left: 10%;
-        margin: 10%;
+    }
+
+    .avisopreco {
+        margin-left: 10%;
+        font-size: 10px;
+        width: 150%;
     }
 
     .secundario {
         display: flex;
-        justify-content: center;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagem_secundaria{
+        width: 45vh;
+        margin-right: 10%;
     }
 
     .descricao_titulo {
         text-align: center;
+        font-size: 30px;
     }
 
     .descricao_subtitulo {
         text-align: center;
-        width: 45vh;
+        width: 50vh;
     }
 
     .terceiro_botao {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 35vh;
+        margin-bottom: 20%;
+        margin-top: 20%;
     }
 
     .telas_imagens {
         margin-left: 0;
+        width: 50vh;
     }
 
-  .lista_dispositivos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-weight: 600;
-    font-size: 30px;
-}
+    .titulo_final{
+        font-size: 30px;
+        width: 50vh;
+    }
 
-.lista_rodape a {
-    font-size: 0.8125rem;
-}
+    .imagem_sessaoquatro{
+        width: 45vh;
+    }
+    .lista_dispositivos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .lista_rodape a {
+        font-size: 0.30rem;
+
+    }
+
+    footer {
+        text-align: center;
+        width: 50vh;
+        
+    }
 
 }
